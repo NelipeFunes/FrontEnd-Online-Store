@@ -9,7 +9,7 @@ describe(`11 - Avalie e comente acerca de um produto em sua tela de exibição d
     global.fetch.mockClear();
   });
 
-  it.only('Avalia todo o campo de avaliação na sua tela de detalhes', async () => {
+  it('Avalia todo o campo de avaliação na sua tela de detalhes', async () => {
     const evaluationEmail = `teste@trybe.com`;
     const evaluationContent = `Esta é uma avaliação sobre o produto realizada na tela de detalhe.`;
     jest.spyOn(global, 'fetch').mockImplementation(mockFetch)
