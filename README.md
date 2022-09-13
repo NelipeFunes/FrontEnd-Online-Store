@@ -2,7 +2,7 @@
 # FrontEnd Online Store
 
 Projeto realizado em grupo.
-Projeto é um e-commerce utilizando a API do mercado livre
+Aplicação front-end, e-commerce utilizando a API do mercado livre.
 
 ## Authors
 
